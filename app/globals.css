@@ -18,14 +18,14 @@
   font-family: 'nubit';
   src: url('/fonts/nubit.otf') format('opentype');
 }
-::-webkit-scrollbar{width:10px;background-color:#000}::-webkit-scrollbar-thumb{background-color:#fff}::-webkit-scrollbar-thumb:hover{background-color:#555}
+::-webkit-scrollbar{width:10px;background-color:#000;border-radius:10px;}::-webkit-scrollbar-thumb{background-color:#fff;border-radius:10px;}::-webkit-scrollbar-thumb:hover{background-color:#555}
 body {
   font-family: 'Inter', sans-serif;
   color: rgb(var(--foreground-rgb));
   background: #101010;
     overflow-x: hidden;
 }
-
+  
 header{
   top:.3em;
   left:.3em;
@@ -122,7 +122,7 @@ video {
 .message{
   position:fixed;
   bottom:4em;
-  left:-2em;
+  left:-2.1em;
   font-family: 'nubit',sans-serif;
   transform:rotate(-90deg);
   z-index:100;
@@ -146,8 +146,8 @@ img#_img{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1em;
-  margin:3em 36vh;
-  padding:15vh 0;
+  margin:5em 36vh;
+  padding:9em 0;
   opacity: 0;
   transform: scale(0.99);
   transition: opacity 0.5s ease, transform 0.5s ease;
@@ -177,12 +177,14 @@ img#_img{
   display: block;
   margin: 0 auto;
   margin-bottom: 1em;
+  
 }
 .grid-item img {
 display: block;
 width: 100%;
 height: auto;
 cursor:pointer;
+border-radius:15px;
 }
 .grid-item video {
   display: block;
@@ -213,12 +215,10 @@ z-index: 2;
 .linx a{
 display:inline-block;
 margin:.5vw;
-padding:.5em 1em;
-border:1px solid rgba(255,255,255, .25);
-border-radius:1px;
+padding:.5em 2em;
 color:#fff;
 backdrop-filter: blur(15px);
-border-radius: 3px;
+border-radius:15px;
 }
 .linx a:hover{
 background-color:#fff;
@@ -297,4 +297,17 @@ a.selected{
 
 select{
   background:#000;
+}
+
+.toScale {
+  animation: scaleAnimation 1s ease-in-out forwards;
+}
+
+@keyframes scaleAnimation {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
 }
