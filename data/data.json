@@ -1,0 +1,345 @@
+[
+  
+    {
+      "name": "0DayInExploit ExeToDoc",
+      "author": "Unknown",
+      "details": "0DayInExploit ExeToDoc is a powerful tool used to convert executable files into Word document formats. This technique is often employed in exploit scenarios where malicious actors embed the executable payload within a seemingly harmless document. The primary use of this tool is to facilitate spear-phishing attacks by disguising malware as a legitimate document. Users should be extremely cautious when handling or distributing such tools, as they can easily be used for malicious purposes. Proper understanding of cybersecurity principles and ethical hacking practices is essential before utilizing this tool. It is strongly advised to use this tool only in controlled environments and for educational or security testing purposes with explicit permission.",
+      "price": 12000
+    },
+    {
+      "name": "AlienCrypter",
+      "author": "Unknown",
+      "details": "AlienCrypter is a tool used for encrypting files to evade antivirus detection. It is often used in conjunction with malware to obscure the payload and make it harder to detect. Due to its nature, it should be used with caution and awareness of legal implications. Always ensure that you have explicit permission before using.",
+      "price": 12000
+    },
+    {
+      "name": "BITRAT",
+      "author": "Unknown",
+      "details": "BITRAT is a Remote Access Trojan (RAT) that allows attackers to gain unauthorized access and control over a target machine. This tool can perform a wide range of malicious activities including keylogging, screen capturing, file manipulation, and remote command execution. BITRAT is often used by cybercriminals to steal sensitive information, deploy additional malware, and maintain persistent access to compromised systems. Due to its capabilities, it poses a significant threat to cybersecurity. Users must handle this tool with extreme caution and should only use it for legitimate purposes such as penetration testing, with proper authorization. Understanding the ethical and legal implications of using such tools is crucial to avoid potential misuse.",
+      "price": 12000
+    },
+    {
+      "name": "Blue Eagle Ransomware Builder",
+      "author": "Unknown",
+      "details": "Blue Eagle Ransomware Builder is a tool used to create ransomware payloads. This builder allows users to customize the ransomware's behavior, including encryption methods, ransom notes, and communication protocols. It is typically used by cybercriminals to generate ransomware attacks that encrypt victim's files and demand a ransom for decryption. This tool poses a significant threat to cybersecurity and should only be used in controlled environments for educational purposes or security research, with proper authorization. Ethical and legal considerations must be taken into account to avoid misuse.",
+      "price": 12000
+    },
+    {
+      "name": "Burp Suite 2022",
+      "author": "PortSwigger Ltd",
+      "details": "Burp Suite 2022 is a comprehensive toolset for web application security testing. Developed by PortSwigger Ltd, it is widely used by security professionals to identify and exploit vulnerabilities in web applications. The suite includes various tools such as a proxy server, web spider, intruder, repeater, and sequencer, among others. Burp Suite is highly regarded for its ability to facilitate both manual and automated testing. The 2022 version includes numerous updates and enhancements, making it a powerful resource for ethical hackers and security researchers. Users must be aware of legal and ethical implications and ensure they have authorization before testing any web applications.",
+      "price": 12000
+    },
+    {
+      "name": "Chaos Ransomware Builder v4",
+      "author": "Unknown",
+      "details": "Chaos Ransomware Builder v4 is a sophisticated tool for creating ransomware. This version allows users to generate ransomware payloads with advanced encryption techniques and customizable features such as ransom notes, communication methods, and encryption algorithms. It is often used by cybercriminals to develop ransomware that encrypts victims' files and demands payment for decryption. Due to its potential for misuse, this tool should only be used in controlled environments for educational purposes or security research, with proper authorization. Understanding the ethical and legal implications is crucial to avoid involvement in illegal activities.",
+      "price": 12000
+    },
+    {
+      "name": "CraxsRat v4.9.3",
+      "author": "Unknown",
+      "details": "CraxsRat v4.9.3 is a Remote Access Trojan (RAT) that enables attackers to gain unauthorized access and control over a victim's computer. This tool can perform various malicious activities, including keylogging, screen capturing, file manipulation, and remote command execution. CraxsRat is often used by cybercriminals for espionage, data theft, and deploying additional malware. Due to its capabilities, it represents a significant threat to cybersecurity. Users must handle this tool with extreme caution and should only use it for legitimate purposes such as penetration testing, with proper authorization. Understanding the ethical and legal implications of using such tools is crucial to avoid potential misuse.",
+      "price": 12000
+    },
+    {
+      "name": "DDOS",
+      "author": "Unknown",
+      "details": "DDOS (Distributed Denial of Service) tools are used to overwhelm a target system, service, or network with a flood of internet traffic, rendering it unusable. These tools can generate massive amounts of traffic from multiple sources, making it difficult for the target to function properly. DDOS attacks can cause significant disruption and financial loss to businesses and individuals. While DDOS tools can be used for legitimate stress testing of networks, their primary use is often malicious. Handling and using these tools requires a deep understanding of ethical hacking principles and should only be conducted with explicit permission in controlled environments. Unauthorized use of DDOS tools is illegal and punishable by law.",
+      "price": 12000
+    },
+    {
+      "name": "Dragon-Crypter-main",
+      "author": "Unknown",
+      "details": "Dragon-Crypter-main is an advanced cryptographic tool designed to encrypt executable files, making them harder to detect by antivirus software. It is often used to protect malware payloads, ensuring that they can bypass security measures and execute on the target system. This tool can be highly effective in obfuscating code and avoiding detection, but it also poses significant risks if used maliciously. Users must exercise extreme caution and be aware of the legal and ethical implications of using such tools. Proper knowledge of cybersecurity practices and ethical hacking is essential before utilizing this tool, and it should only be used in legitimate and authorized contexts.",
+      "price": 12000
+    },
+    {
+      "name": "ExeinfoPe_0074",
+      "author": "Daniel Pistelli",
+      "details": "ExeinfoPe_0074 is a specialized tool designed for analyzing and identifying executable files. It provides detailed information about executable binaries, such as their file type, architecture, and potential embedded resources. This makes it particularly useful for forensic analysis, software debugging, and identifying malware signatures within executables. Its capabilities help cybersecurity professionals and researchers understand the inner workings of executable files, aiding in both defensive and investigative efforts.",
+      "price": 12000
+    },
+    {
+      "name": "HTA-Exploit-Builder-main",
+      "author": "Unknown",
+      "details": "HTA-Exploit-Builder-main is a tool designed for creating HTML Application (HTA) exploits. HTA files are executable scripts that run on Windows systems, combining the flexibility of HTML and scripting languages like JavaScript or VBScript. This tool likely facilitates the creation of HTA files embedded with malicious scripts or payloads, potentially used for security testing or, regrettably, for malicious purposes such as phishing or remote code execution attacks.",
+      "price": 12000
+    },
+    {
+      "name": "Keril_Crypter_Fud",
+      "author": "Unknown",
+      "details": "Keril_Crypter_Fud is a Fully Undetectable (FUD) crypter tool designed to obfuscate and encrypt malicious software. FUD crypters aim to evade detection by antivirus and security software, allowing malware to bypass security measures and execute on targeted systems without detection. These tools are unfortunately utilized by malicious actors to enhance the effectiveness of their malware campaigns, making it more challenging for cybersecurity defenses to detect and mitigate such threats.",
+      "price": 12000
+    },
+    {
+      "name": "Lime Binder v2.0.0.0",
+      "author": "Unknown",
+      "details": "Lime Binder v2.0.0.0 is a tool used to bind multiple files into a single executable. Binders like Lime Binder are often utilized for legitimate purposes in software development to combine necessary files into a cohesive application package. However, they can also be exploited for malicious intents, allowing attackers to bundle malware with legitimate applications to deceive users or evade detection by antivirus software.",
+      "price": 12000
+    },
+    {
+      "name": "LOGS_",
+      "author": "Unknown",
+      "details": "LOGS_ is a set of utilities related to the collection and analysis of logs. In cybersecurity, logging plays a crucial role in monitoring and identifying potential security incidents, providing a record of activities and events within a system or network. Tools under the LOGS_ category likely include software for aggregating, parsing, and analyzing log data from various sources such as servers, applications, and network devices. This helps security professionals and administrators to detect anomalies, investigate incidents, and ensure compliance with security policies.",
+      "price": 12000
+    },
+    {
+      "name": "OpenBullet 2",
+      "author": "Unknown",
+      "details": "OpenBullet 2 is a web testing suite that encompasses a variety of functionalities useful for security testing and automation. It is particularly known for its capabilities in web scraping, performing brute force attacks, and checking credentials against web applications. OpenBullet enables users to create and execute complex testing scenarios, making it a popular choice among penetration testers and security enthusiasts for assessing the security posture of web applications. However, it's important to note that the tool can also be misused for unauthorized access and should only be used in ethical and legal security testing contexts.",
+      "price": 0
+    },
+    {
+      "name": "Pegasus RAT",
+      "author": "Unknown",
+      "details": "Pegasus RAT (Remote Access Trojan) is a sophisticated tool used for remotely accessing and controlling targeted devices. It is designed to operate stealthily, allowing malicious actors to monitor user activities, capture sensitive information, and execute commands on compromised systems without the user's knowledge. Pegasus RAT is particularly notorious for its extensive capabilities in spying on devices, making it a significant concern for cybersecurity professionals and individuals concerned about privacy and security breaches.",
+      "price": 12000
+    },
+    {
+      "name": "PyntStealer",
+      "author": "Unknown",
+      "details": "PyntStealer is a type of malware designed to steal sensitive information from infected systems. Specifically, PyntStealer is known for its capability to extract credentials, personal data, and other valuable information from compromised computers. This malware operates discreetly, often evading detection by security software, and can be used for various malicious purposes such as identity theft, financial fraud, or espionage. As with other types of malware, prevention through robust cybersecurity practices and regular updates to security software are essential measures to mitigate the risk of PyntStealer infections.",
+      "price": 12000
+    },
+    {
+      "name": "Quick_Any2Ico",
+      "author": "Unknown",
+      "details": "Quick_Any2Ico is a tool designed for converting images (like PNG and JPG files) into icon files (ICO format). While typically used innocuously for creating custom icons for applications or websites, Quick_Any2Ico has unfortunately been exploited for malicious purposes. Attackers have been known to use similar tools to embed malware or malicious scripts within icon files, leveraging users' trust in icons to execute harmful actions on their systems. Therefore, caution is advised when handling icon files downloaded from untrusted sources or created using tools like Quick_Any2Ico.",
+      "price": 12000
+    },
+    {
+      "name": "RSP420_RAT",
+      "author": "Unknown",
+      "details": "RSP420_RAT, or Remote Access Trojan, is a tool used for gaining unauthorized access and control over remote computer systems. This particular RAT allows attackers to remotely monitor user activities, capture sensitive information, and execute commands on compromised machines. Like other RATs, RSP420_RAT poses significant security risks, as it can be used for espionage, data theft, or launching further attacks within a network. Protection against RATs involves robust cybersecurity practices, including the use of firewall and antivirus software, regular system updates, and user education on recognizing and avoiding suspicious activities.",
+      "price": 12000
+    },
+    {
+      "name": "SpyNote 2022",
+      "author": "Unknown",
+      "details": "SpyNote 2022 is a Remote Access Trojan (RAT) designed specifically to target Android devices. It provides remote control capabilities, allowing attackers to monitor and manipulate various aspects of an infected Android device, such as accessing files, recording audio, capturing screenshots, and tracking GPS location. SpyNote 2022 is typically distributed through malicious apps or phishing campaigns, exploiting users' trust to gain access to sensitive information and compromising their privacy. Protecting against SpyNote and similar threats involves avoiding suspicious apps, installing apps only from trusted sources like the Google Play Store, and keeping Android devices updated with the latest security patches.",
+      "price": 12000
+    },
+    {
+      "name": "VenomRAT-HVNC-2022",
+      "author": "Unknown",
+      "details": "VenomRAT-HVNC-2022 is a Remote Access Trojan (RAT) known for its capabilities that include Hidden Virtual Network Computing (HVNC). This feature allows attackers to establish covert remote desktop sessions on infected machines, enabling them to view and control the desktop interface without the user's knowledge. VenomRAT-HVNC-2022 can also perform typical RAT functionalities such as capturing keystrokes, stealing credentials, accessing files, and executing commands remotely. It poses significant security risks as it can be used for unauthorized surveillance, data theft, and further exploitation of compromised systems. Preventive measures against VenomRAT and similar threats involve robust cybersecurity practices, including endpoint protection, network monitoring, and user education on identifying and avoiding suspicious activities and downloads.",
+      "price": 12000
+    },
+    {
+      "name": "WH-ApkCrypter-V2",
+      "author": "Unknown",
+      "details": "WH-ApkCrypter-V2 is a crypter tool specifically designed to obfuscate and encrypt Android application packages (APK files). Crypters like WH-ApkCrypter-V2 aim to make malicious APK files undetectable to antivirus and security software, allowing them to bypass detection and be installed on targeted devices without raising suspicions. This tool is unfortunately used by malicious actors to distribute malware through disguised or repackaged Android apps, posing risks such as data theft, unauthorized access, or financial fraud. Protection against such threats includes downloading apps only from trusted sources, using antivirus software on Android devices, and staying informed about security best practices for mobile devices.",
+      "price": 12000
+    },
+    {
+      "name": "888_Rat_v1.2.4",
+      "author": "Unknown",
+      "details": "888_RAT_v1.2.4 is a version of the 888 Remote Access Trojan (RAT) known for its robust capabilities in controlling and manipulating infected computers remotely. This RAT allows attackers to perform a wide range of malicious activities, including keystroke logging, capturing screenshots, accessing files and directories, controlling webcams and microphones, and executing arbitrary commands on the compromised system. 888_RAT_v1.2.4 is particularly concerning due to its ease of use and comprehensive feature set, making it a favored tool among cybercriminals for conducting espionage, stealing sensitive information, or launching further attacks within compromised networks. Defending against 888_RAT and similar threats requires proactive security measures such as regular software updates, strong antivirus protection, and user education on recognizing and avoiding suspicious activities and downloads.",
+      "price": 12000
+    },
+    {
+      "name": "Anubis7.0 202",
+      "author": "Unknown",
+      "details": "Anubis7.0 is a version of the Anubis Android Remote Access Trojan (RAT), a tool specifically designed to compromise and control Android devices remotely. This RAT allows attackers to monitor and manipulate various aspects of the infected device, including capturing screenshots, recording audio, tracking GPS location, accessing files, and stealing sensitive information such as login credentials and personal data. Anubis7.0 is typically distributed through malicious apps or phishing campaigns, exploiting users' trust to gain access to their devices. Protecting against Anubis7.0 and similar threats involves cautious app installation practices, regular device updates, and using reputable antivirus software on Android devices to detect and remove malware.",
+      "price": 12000
+    },
+    {
+      "name": "Blazing Dork 2023",
+      "author": "Unknown",
+      "details": "Blazing Dork 2023 is a tool designed for automated Google dorking, a technique used to find vulnerable web pages and servers through specific search queries on Google. This tool automates the process of searching for websites that may have security vulnerabilities, making it easier for attackers to identify potential targets for exploitation. Blazing Dork 2023 can be used maliciously to discover websites with exposed sensitive information, misconfigured servers, or other security weaknesses that could be exploited for unauthorized access or data theft. Defending against tools like Blazing Dork 2023 involves ensuring robust cybersecurity measures such as regular security audits, implementing strong access controls, and promptly patching vulnerabilities discovered through ethical security testing.",
+      "price": 12000
+    },
+    {
+      "name": "Brata RAT",
+      "author": "Unknown",
+      "details": "Brata RAT is a Remote Access Trojan (RAT) that specifically targets Android devices. It allows attackers to gain unauthorized access and control over infected devices remotely. Brata RAT is designed to operate stealthily, enabling malicious actors to execute various actions on compromised devices, such as capturing screenshots, recording audio, accessing files, tracking GPS location, and monitoring user activities without their knowledge. Like other RATs, Brata RAT poses significant security risks as it can be used for espionage, data theft, surveillance, and further compromising network security. Protecting against Brata RAT involves cautious app installation practices, keeping devices updated with the latest security patches, and using reputable antivirus software to detect and remove malware.",
+      "price": 12000
+    },
+    {
+      "name": "BurpBountyPro 2.5.1",
+      "author": "Unknown",
+      "details": "BurpBountyPro 2.5.1 is an extended version of the popular web application security testing tool, Burp Suite. Specifically, BurpBountyPro adds advanced features to Burp Suite, enhancing its capabilities for discovering and exploiting security vulnerabilities in web applications. This tool allows security professionals and penetration testers to automate the process of testing for various types of vulnerabilities such as SQL injection, cross-site scripting (XSS), and server-side request forgery (SSRF). BurpBountyPro_2.5.1 is particularly valued for its effectiveness in identifying and assessing vulnerabilities that could be exploited by attackers to compromise web applications. However, it is important to use such tools responsibly and ethically, within legal boundaries and with proper authorization.",
+      "price": 12000
+    },
+    {
+      "name": "Chaos Ransomware Builder v5",
+      "author": "Unknown",
+      "details": "Chaos Ransomware Builder v5 is a tool designed to create custom ransomware strains that encrypt victims' files, demanding ransom payments for decryption. This version of Chaos Ransomware Builder enhances the capabilities of previous versions, allowing attackers to customize their ransomware with specific features and payloads. Once deployed, Chaos Ransomware v5 typically encrypts files on the victim's system using strong encryption algorithms, making them inaccessible without a decryption key held by the attacker. Such ransomware tools are used maliciously to extort money from individuals, businesses, or organizations by threatening to permanently encrypt their valuable data. Defending against Chaos Ransomware and similar threats involves implementing robust cybersecurity measures, including regular data backups, up-to-date antivirus software, and user education on recognizing phishing and malware threats.",
+      "price": 12000
+    },
+    {
+      "name": "CraxsRat-V3 2023",
+      "author": "Unknown",
+      "details": "CraxsRat-V3 2023 is a remote access tool (RAT) designed for controlling and managing targeted computer systems remotely. This version, specifically from 2023, likely includes enhancements and updates over its predecessors, offering advanced features for covertly monitoring user activities, capturing sensitive information, and executing commands on compromised machines. Like other RATs, CraxsRat-V3 2023 can be deployed by malicious actors to perform various malicious activities, including data theft, espionage, and further compromising network security. Protecting against CraxsRat-V3 and similar threats requires vigilant cybersecurity practices, including regular software updates, strong endpoint protection, and user education to recognize and avoid suspicious activities and downloads.",
+      "price": 12000
+    },
+    {
+      "name": "DedSec_APK_Crypter",
+      "author": "Unknown",
+      "details": "DedSec_APK_Crypter is a tool designed to encrypt and obfuscate Android application packages (APK files). Crypters like DedSec_APK_Crypter are used to make malicious APK files undetectable to antivirus and security software, allowing them to bypass detection and be installed on targeted devices without raising suspicions. This tool is unfortunately utilized by malicious actors to distribute malware through disguised or repackaged Android apps, posing risks such as data theft, unauthorized access, or financial fraud. Protection against such threats includes downloading apps only from trusted sources, using antivirus software on Android devices, and staying informed about security best practices for mobile devices.",
+      "price": 12000
+    },
+    {
+      "name": "Dumper + JumpStart",
+      "author": "Unknown",
+      "details": "Dumper + JumpStart is a combination of tools used for exploiting vulnerabilities in Wi-Fi networks. Dumper is typically used for capturing and decrypting wireless network keys (WEP/WPA/WPA2) from vulnerable Wi-Fi networks. It leverages weaknesses in the security protocols used by these networks to obtain access credentials. JumpStart is often used in conjunction with Dumper, JumpStart assists in the process of hacking into Wi-Fi networks by providing additional capabilities or automating certain steps in the exploitation process. ",
+      "price": 12000
+    },
+    {
+      "name": "hakr",
+      "author": "Unknown",
+      "details": "hakr is a crypter used for encrypting and obfuscating malicious code. Crypters like hakr are primarily used by cyber attackers to make their malware undetectable to antivirus and security software. By encrypting the malicious payload, the crypter aims to bypass security defenses that rely on detecting known malware signatures or behaviors.",
+      "price": 12000
+    },
+    {
+      "name": "INS UNLOCKER",
+      "author": "Unknown",
+      "details": "INS UNLOCKER is a tool designed to bypass security measures and unlock various types of devices, typically mobile phones and sometimes other electronic devices. This tool is often used in scenarios where users have forgotten their device passwords, allowing them to regain access without needing the original credentials. However, INS UNLOCKER and similar tools can also be misused for unauthorized access to locked devices, potentially compromising user privacy and security. It's important for users to use such tools responsibly and ethically, ensuring they have legal permission to access the devices they are unlocking.",
+      "price": 12000
+    },
+    {
+      "name": "Remcos + Crypter",
+      "author": "Unknown",
+      "details": "Remcos is a sophisticated Remote Access Trojan (RAT) used by cyber attackers to gain unauthorized access and control over compromised computers remotely. It grants attackers complete control over infected systems, allowing them to manipulate files, install software, and execute commands discreetly. Beyond control, Remcos facilitates surveillance by logging keystrokes, accessing webcams and microphones, and capturing screenshots, enabling extensive monitoring of user activities. Moreover, it facilitates data theft by extracting sensitive information such as login credentials and personal documents from infected systems. Typically distributed through phishing emails or malicious downloads, Remcos poses severe risks to both individuals and organizations, serving as a tool for espionage, data breaches, and further network exploitation. Protecting against Remcos entails comprehensive cybersecurity practices, including robust endpoint protection, regular security updates, and educating users about recognizing and mitigating phishing and malware threats.",
+      "price": 12000
+    },
+    {
+      "name": "LiMe RAT",
+      "author": "Unknown",
+      "details": "LiMe RAT (Linux Memory Extractor Remote Access Trojan) is a lightweight Remote Access Trojan designed to target Linux-based operating systems. This RAT allows attackers to gain unauthorized remote access and control over Linux machines, enabling various malicious activities. LiMe RAT is specifically crafted to run stealthily and evade detection, making it challenging to detect and remove once installed on a system. Attackers can use LiMe RAT to perform actions such as capturing screenshots, recording keystrokes, accessing files, and executing commands remotely. This makes it a significant threat to Linux users and organizations, emphasizing the importance of robust cybersecurity measures, including regular system updates, strong authentication protocols, and vigilant monitoring for suspicious activities.",
+      "price": 12000
+    },
+    {
+      "name": "Mars Panel v8",
+      "author": "Unknown",
+      "details": "Mars Panel v8 refers to a web-based administration panel designed primarily for managing various Remote Access Trojans (RATs) and other malicious tools remotely. These panels are typically used by cybercriminals to control multiple infected machines from a centralized interface. Mars Panel v8 specifically suggests it is an advanced version, likely offering improved features for monitoring, controlling, and managing compromised systems. Such panels facilitate malicious activities such as data theft, surveillance, and launching further attacks within compromised networks. Preventing the impact of such tools involves robust cybersecurity practices, including endpoint protection, network monitoring, and user education on recognizing and avoiding suspicious activities and downloads.",
+      "price": 12000
+    },
+    {
+      "name": "MP Exploit Tool",
+      "author": "Unknown",
+      "details": "The MP Exploit Tool is a software application designed for creating and deploying multiple types of exploits. These exploits are typically used in the field of cybersecurity for testing and demonstrating vulnerabilities in computer systems, networks, and applications. <br/>The tool allows security professionals, penetration testers, and ethical hackers to develop exploits that can target specific weaknesses in software or hardware configurations. By identifying vulnerabilities through such tools, organizations can better understand their security posture and take proactive measures to mitigate potential risks.<br/>It's important to note that while the MP Exploit Tool serves a legitimate purpose in cybersecurity testing, its capabilities can also be leveraged maliciously if used by unauthorized individuals or cybercriminals. Therefore, its usage should always adhere to ethical guidelines and legal frameworks, with proper authorization and consent from system owners or administrators.",
+      "price": 12000
+    },
+    {
+      "name": "PentagonRat",
+      "author": "Unknown",
+      "details": "PentagonRat, also known as PentaRat, is a powerful remote access tool (RAT) used by cyber attackers to gain unauthorized control over compromised systems. This RAT enables complete manipulation of files, software installations, and execution of commands remotely. It facilitates surveillance by logging keystrokes, accessing webcams and microphones, and capturing screenshots to monitor user activities covertly. Additionally, PentagonRat allows attackers to steal sensitive information such as credentials and personal data stored on infected machines. Deployed through phishing attacks or malicious downloads, PentagonRat poses significant risks to both individuals and organizations, underscoring the importance of robust cybersecurity practices including regular updates, endpoint protection, and user education on detecting and mitigating malware threats.",
+      "price": 12000
+    },
+    {
+      "name": "Quasar Golden Edition RAT",
+      "author": "Unknown",
+      "details": "Quasar Golden Edition RAT (Remote Access Trojan) is an advanced version of the Quasar RAT, a tool used for remote administration and control of compromised systems. This particular edition enhances the capabilities of its predecessor, providing cyber attackers with extensive features for covertly managing infected computers. Quasar Golden Edition RAT allows unauthorized access to victim machines, enabling actions such as file manipulation, software installation, keystroke logging, webcam and microphone monitoring, and data theft. Like other RATs, it is typically distributed through phishing emails, malicious downloads, or exploit kits, posing significant security risks to individuals and organizations alike. Protecting against Quasar Golden Edition RAT requires robust cybersecurity measures, including endpoint protection, regular updates, and user education on recognizing and avoiding phishing and malware threats.",
+      "price": 12000
+    },
+    {
+      "name": "Redline 20.2",
+      "author": "Unknown",
+      "details": "Redline 20.2 refers to a specific version of a malware known as Redline, which is designed to steal sensitive information from compromised systems. This type of malware is categorized as a stealer, meaning it is programmed to extract data such as login credentials, financial information, and personal files from infected computers. Once installed, Redline 20.2 operates stealthily, often evading detection by antivirus software and security measures. It poses a significant threat to individuals and organizations by potentially compromising their privacy, financial security, and operational integrity. Protecting against Redline and similar threats requires robust cybersecurity practices, including regular software updates, strong endpoint protection, and user education on recognizing and avoiding phishing and malicious downloads.",
+      "price": 12000
+    },
+    {
+      "name": "Silent Crypto Miner Builder",
+      "author": "Unknown",
+      "details": "A Silent Crypto Miner Builder is a tool used to create cryptocurrency mining malware that operates covertly on infected systems. This type of malware, known as a crypto miner or cryptocurrency miner, uses the computational resources of the victim's computer to mine cryptocurrencies like Bitcoin, Monero, or Ethereum. The term 'silent' indicates that the miner runs in the background without the user's knowledge or consent, consuming CPU and GPU resources and potentially slowing down the system. <br/> These builders are typically used by cybercriminals to generate revenue by exploiting the computing power of multiple infected machines. They may spread through phishing emails, malicious downloads, or compromised websites. Users may notice symptoms such as increased CPU usage, reduced system performance, or overheating of hardware components.",
+      "price": 12000
+    },
+    {
+      "name": "TMAC v6.0.7",
+      "author": "Unknown",
+      "details": "TMAC v6.0.7 refers to Technitium MAC Address Changer, a software tool used to change or spoof the Media Access Control (MAC) address of network adapters on Windows systems. MAC addresses are unique identifiers assigned to network devices, and changing them can help users enhance privacy, bypass network restrictions, or troubleshoot network connectivity issues. <br/> Technitium MAC Address Changer (TMAC) v6.0.7 specifically provides users with a graphical user interface (GUI) to easily modify the MAC address of their network adapters. This tool allows users to specify a new MAC address manually or generate a random one. It supports various network adapters and provides options for resetting the original MAC address or restoring previously saved MAC configurations. <br/> While TMAC v6.0.7 serves legitimate purposes in networking and troubleshooting, changing MAC addresses can also be used for malicious activities, such as bypassing network access controls or impersonating other devices on a network. Therefore, it's important to use such tools responsibly and in compliance with legal and organizational policies regarding network security and privacy.",
+      "price": 12000
+    },
+    {
+      "name": "Verci Rat 2023",
+      "author": "Unknown",
+      "details": "Verci Rat 2023 is a type of Remote Access Trojan (RAT) designed for gaining unauthorized remote control over compromised computers. RATs like Verci Rat 2023 typically provide cyber attackers with extensive capabilities to monitor user activities, manipulate files, execute commands, and extract sensitive information from infected systems. These tools are often distributed through phishing emails, malicious downloads, or exploit kits, posing significant security risks to individuals and organizations by potentially compromising privacy, data security, and operational integrity. Protecting against RATs such as Verci Rat 2023 requires robust cybersecurity measures, including endpoint protection, regular updates, and user education on recognizing and mitigating malware threats.",
+      "price": 12000
+    },
+    {
+      "name": "WH-RAT",
+      "author": "Unknown",
+      "details": "WH-RAT-master is an advanced iteration of the Web Hacking Remote Administration Tool, enabling cyber attackers to remotely control compromised systems with extensive capabilities. This RAT allows for complete manipulation of files, execution of commands, and surveillance through keystroke logging, webcam access, and screenshot capturing. Designed for stealth, WH-RAT-master operates covertly to evade detection by antivirus software and security defenses. It poses significant risks by facilitating data theft, including sensitive information such as credentials and financial data, from infected machines. Preventing the impact of WH-RAT-master requires robust cybersecurity measures, including regular updates, endpoint protection, and user education on recognizing and mitigating phishing and malware threats.",
+      "price": 12000
+    },
+    {
+      "name": "1000 Ethical Hacking Tutorials",
+      "author": "Unknown",
+      "details": "Compressed file containing a collection of resources focused on ethical hacking techniques and practices. This compilation typically includes a variety of tutorials, guides, and tools aimed at educating users about cybersecurity, penetration testing, and ethical hacking methodologies. These tutorials may cover topics such as network scanning, vulnerability assessment, exploiting security flaws, and defensive strategies against cyber threats. While labeled as ethical hacking, such collections can sometimes blur the line between educational and potentially malicious content, depending on how they are utilized. It's essential for users interested in cybersecurity to approach these resources with a responsible mindset, adhering to legal and ethical standards while gaining knowledge about cybersecurity principles and practices.",
+      "price": 12000
+    },
+    {
+      "name": "APK Easy Tool v1.60.2",
+      "author": "Unknown",
+      "details": "APK Easy Tool v1.60.2 is a user-friendly software application designed to simplify the process of decompiling and recompiling Android APK files. This tool is particularly valuable for developers, security researchers, and modding enthusiasts who need to analyze, modify, or customize Android applications. APK Easy Tool offers a graphical user interface (GUI) that makes it accessible even to users with limited technical expertise, providing features like batch processing, easy access to log files, and options to sign APKs after modification. By streamlining the workflow for working with APK files, APK Easy Tool v1.60.2 aids in tasks such as debugging, reverse engineering, and enhancing app functionalities, all while supporting a wide range of Android versions and ensuring a smooth user experience.",
+      "price": 12000
+    },
+    {
+      "name": "BBRAT",
+      "author": "Unknown",
+      "details": "BBRAT is a type of Remote Access Trojan (RAT) designed to provide cyber attackers with unauthorized access and control over compromised systems. RATs like BBRAT enable attackers to remotely manipulate files, execute commands, and monitor user activities on infected devices. This includes logging keystrokes, capturing screenshots, and accessing webcams and microphones for surveillance purposes. Additionally, BBRAT can facilitate data theft by extracting sensitive information such as login credentials, personal data, and financial information from the target system. Distributed through phishing campaigns, malicious downloads, or exploit kits, BBRAT poses significant security risks to individuals and organizations. Protecting against such threats requires robust cybersecurity measures, including up-to-date antivirus software, strong endpoint protection, and user education on recognizing and avoiding phishing and malware attacks.",
+      "price": 12000
+    },
+    {
+      "name": "BinderBot",
+      "author": "Unknown",
+      "details": "BinderBot is a type of software tool used to bind multiple files into a single executable file. This tool is often utilized for both legitimate and malicious purposes. In a legitimate context, developers may use BinderBot to package various components of an application into a single installer for ease of distribution and installation. However, in a malicious context, cyber attackers can use BinderBot to combine harmful payloads, such as malware or spyware, with legitimate files. This makes it easier to trick users into downloading and executing the malicious file, as it appears to be a harmless program or document. <br/> The functionality of BinderBot includes the ability to conceal the presence of malicious code within seemingly benign software, evade antivirus detection, and distribute malware through phishing emails, compromised websites, or social engineering tactics. As such, BinderBot poses significant security risks. To protect against threats posed by tools like BinderBot, it is essential to implement strong cybersecurity measures, including regular system scans, keeping software updated, and educating users on the dangers of downloading and executing files from untrusted sources.",
+      "price": 12000
+    },
+    {
+      "name": "Cobalt Strike",
+      "author": "Unknown",
+      "details": "Cobalt Strike is a sophisticated penetration testing tool used by cybersecurity professionals and attackers to simulate advanced persistent threats (APTs) and assess network vulnerabilities. This powerful software suite offers a range of capabilities, including covert command and control, post-exploitation techniques, and lateral movement within compromised networks. It features a user-friendly interface for creating and managing attacks, which can deploy customized payloads, execute shell commands, and exfiltrate data. Due to its extensive functionalities and ease of use, Cobalt Strike has become a favored tool for both ethical hackers conducting red team exercises and cybercriminals orchestrating targeted attacks, making robust defense mechanisms and threat detection crucial for organizations.",
+      "price": 12000
+    },
+    {
+      "name": "DarkComet RAT",
+      "author": "Unknown",
+      "details": "DarkComet RAT is a notorious Remote Access Trojan (RAT) that allows cyber attackers to gain unauthorized control over a victim's computer. Developed initially for legitimate remote administration purposes, DarkComet quickly became a popular tool among cybercriminals due to its extensive feature set and ease of use. It enables attackers to perform various malicious activities, including keylogging, capturing screenshots, accessing webcams and microphones, stealing passwords, and manipulating files. DarkComet operates stealthily, often evading detection by antivirus software, making it a significant threat to both individuals and organizations. The widespread misuse of DarkComet has led to increased awareness and efforts to detect and mitigate its impact, underscoring the importance of robust cybersecurity practices and advanced threat detection mechanisms.",
+      "price": 12000
+    },
+    {
+      "name": "Empire",
+      "author": "Unknown",
+      "details": "Empire is a powerful post-exploitation framework used by cybersecurity professionals and malicious actors alike for conducting advanced attacks on compromised systems. Developed as an open-source tool, Empire integrates numerous modules and capabilities for command and control, allowing attackers to maintain persistent access to target networks. It supports various platforms, including Windows, Linux, and macOS, and provides features such as credential harvesting, lateral movement, and privilege escalation. Empire's user-friendly interface and extensive scripting support make it a versatile tool for automating complex attack sequences. Due to its capabilities, Empire is widely used in red team operations to simulate real-world attack scenarios, helping organizations identify and address security weaknesses. However, its misuse by cybercriminals highlights the need for vigilant security measures and continuous monitoring to defend against sophisticated threats.",
+      "price": 12000
+    },
+    {
+      "name": "Exploit Pack",
+      "author": "Unknown",
+      "details": "Exploit Pack is a comprehensive framework designed for penetration testers and security researchers to streamline the process of developing and deploying exploits. This toolset includes a wide array of pre-built exploits targeting various software vulnerabilities, enabling users to test the security of systems and applications. With its user-friendly interface, Exploit Pack simplifies the management of exploit campaigns, allowing users to execute complex attack vectors with ease. It supports multiple platforms and provides real-time collaboration features, making it an effective resource for both individual testers and teams. While primarily intended for ethical hacking and vulnerability assessment, Exploit Pack can also be misused by malicious actors to conduct unauthorized attacks, underscoring the importance of responsible usage and adherence to legal and ethical standards in cybersecurity.",
+      "price": 12000
+    },
+    {
+      "name": "Metasploit Framework",
+      "author": "Unknown",
+      "details": "The Metasploit Framework is a widely-used open-source platform for developing, testing, and executing exploits against networked systems. Initially created by H.D. Moore in 2003, it has become a cornerstone tool for penetration testers and cybersecurity professionals due to its extensive library of exploits, payloads, and auxiliary modules. Metasploit facilitates the identification of security vulnerabilities, conducting penetration tests, and verifying the effectiveness of defenses by simulating real-world attacks. Its modular architecture allows users to craft custom exploits and payloads, enabling tailored assessments for diverse environments. Metasploit's robust features, including automated exploitation and post-exploitation tools, make it indispensable for red teaming and security research. However, its powerful capabilities also mean it can be misused by cybercriminals, emphasizing the need for ethical and controlled application in security testing.",
+      "price": 12000
+    },
+    {
+      "name": "Nessus",
+      "author": "Unknown",
+      "details": "Nessus is a renowned vulnerability scanner used by cybersecurity professionals to identify and assess security vulnerabilities within networks, systems, and applications. Developed by Tenable, Inc., Nessus provides comprehensive scanning capabilities that help detect misconfigurations, weak passwords, outdated software, and potential entry points for malicious attacks. The tool offers detailed reporting and prioritization of vulnerabilities based on their severity, enabling organizations to efficiently address and mitigate risks. With its user-friendly interface and extensive plugin library, Nessus supports a wide range of operating systems, devices, and applications, making it a versatile solution for both small and large-scale environments. Regular use of Nessus is integral to maintaining robust cybersecurity posture, ensuring that vulnerabilities are promptly identified and remediated to protect against potential breaches and exploits.",
+      "price": 12000
+    },
+    {
+      "name": "Nmap",
+      "author": "Fyodor",
+      "details": "Nmap (Network Mapper) is a powerful and versatile open-source tool used for network discovery and security auditing. Developed by Gordon Lyon, also known by his pseudonym Fyodor, Nmap is widely used by network administrators and cybersecurity professionals to scan large networks and identify active hosts, open ports, services, and operating systems. Its comprehensive scanning techniques, including SYN scans, UDP scans, and OS detection, enable detailed mapping of network infrastructures. Nmap's scripting engine allows users to write custom scripts for advanced tasks such as vulnerability detection, automated exploitation, and network inventory. It is invaluable for tasks ranging from simple network audits to complex penetration testing. Nmap's effectiveness, ease of use, and continuous updates have cemented its status as an essential tool in the cybersecurity toolkit.",
+      "price": 0
+    },
+    {
+      "name": "Wireshark",
+      "author": "Unknown",
+      "details": "Wireshark is a widely-used, open-source network protocol analyzer that enables cybersecurity professionals and network administrators to capture and interactively browse the traffic running on a computer network. Known for its deep inspection capabilities, Wireshark allows users to see detailed information about various network protocols, packets, and their contents. It supports a vast array of protocols and can filter data to highlight specific packets of interest, making it an indispensable tool for troubleshooting network issues, analyzing performance, and conducting security assessments. The intuitive graphical user interface (GUI) simplifies the analysis process, even for complex network environments. Wireshark's robust features and continuous updates from its active development community have established it as a critical resource for anyone involved in network management, security, and research.",
+      "price": 0
+    },
+    {
+      "name": "ZAP (Zed Attack Proxy)",
+      "author": "Unknown",
+      "details": "ZAP (Zed Attack Proxy) is an open-source web application security scanner maintained by the Open Web Application Security Project (OWASP). It is designed to help developers and security professionals identify vulnerabilities in web applications by providing automated scanning and comprehensive tools for manual testing. ZAP features a user-friendly graphical interface and extensive plugin support, making it accessible for both beginners and experienced users. The tool can perform a wide range of security tests, including passive scanning, active scanning, and fuzzing, to uncover issues such as cross-site scripting (XSS), SQL injection, and other common web application vulnerabilities. ZAP's robust API also allows for integration with other tools and automated security testing in CI/CD pipelines, making it a valuable resource for ensuring the security of web applications throughout the development lifecycle.",
+      "price": 0
+    }
+  ]

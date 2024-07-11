@@ -1,0 +1,239 @@
+
+@font-face {
+  font-family: 'Eudoxussans';
+  src: 
+      url('/fonts/EudoxusSans-Bold.ttf') format('truetype');
+}
+
+
+.container{
+  margin:0;
+  padding:0;
+  overflow-y: hidden;
+  width: 100%;
+}
+
+.content{
+  text-align:center;
+  justify-content: center;
+}
+
+section{
+  width:100%;
+}
+
+video#vid{
+  margin:0 auto;
+  height:100vh;
+  width:100vw;
+}
+
+.profile{
+  display: block;
+  height:auto;
+  padding: 0;
+  margin-bottom:7em;
+}
+
+.card{
+  padding:2em;
+  max-width:32em;
+  margin:0 auto;
+  background:#000;
+  display: block;
+}
+
+.profile h1{
+  margin-top:-1.5em;
+}
+
+.profile img{
+  margin: 0 auto;
+  margin-top:1em;
+  border-radius:100vh;
+  border:1px solid #555;
+}
+
+.profile p{
+  margin:0 auto;
+  margin-top:1em;
+  margin-bottom:1em;
+  color:#8a94a6;
+}
+
+.profile button{
+  font-family: 'nubit',sans-serif;
+  margin-top:1em;
+  padding:1em 2em;
+  border:1px solid #fff;
+  letter-spacing: 3px;
+  font-size:2em;
+}
+
+.profile button img{
+  margin:0;
+  height: 24px;
+  display:inline-block;
+  border:none;
+}
+
+.profile button:hover{
+  background:#fff;
+  color:black;
+}
+
+.clients{
+  border-top:1px solid #555;
+}
+
+.clients p{
+  text-align:left;
+  font-size:2em;
+  font-family:'nubit',sans-serif;
+  color:#555;
+  padding:1em;
+}
+
+.clients img{
+  display:inline-block;
+  margin:1em;
+  height:3.6em;
+}
+
+.call{
+  padding:5em 0;
+}
+
+.call h1{
+  line-height: 1em;
+  margin-bottom:1em;
+}
+
+.call p{
+  font-size:1.2em;
+  color:#8a94a6;
+  margin-bottom:3em;
+}
+
+port a button:hover{
+  background:#fff;
+  color:#000;
+}
+
+.call .stripe{
+  margin:12em 0 2em;
+  padding:1.8em;
+  width:100%;
+  background:#00f;
+  display:inline-block;
+}
+
+.call h2{
+  display:inline-block;
+}
+
+.call button{
+  display:inline-block;
+  margin:1em 3em;
+  padding:1em 3em;
+  border:1px solid #fff;
+  border-radius:36px;
+}
+
+.call button:hover{
+  background:#fff;
+  color:#000;
+}
+
+footer{
+  padding:3em 9em;
+  border-top:1px solid #111;
+}
+
+footer h2{
+  padding:0 3em;
+}
+
+.foots{
+  display: grid;
+  padding:3em 6em;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns with equal width */
+  grid-template-rows: repeat(2, auto); /* 2 rows with auto height */
+  gap: 1rem; /* Gap between grid items */
+}
+
+.foots a{
+  color:#fff;
+}
+
+.foots a:hover{
+  color:#ff0;
+  text-decoration: underline;
+}
+
+
+.parallax {
+  position: relative;
+  height: 100vh;
+  background: red;
+}
+
+.parallax > div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transform: translateZ(-50px);
+}
+
+blue{
+  color:#00f;
+}
+
+@media (max-width:450px){
+  .profile{
+    padding:1em;
+  }
+  .card{
+    width:90%;
+  }
+  .clients p{
+    text-align:center;
+  }
+  .call p{
+    padding:1em;
+  }
+  footer{
+    padding:3em 0em;
+  }
+  .foots{
+    display: grid;
+    padding:1em 3em;
+    grid-template-columns: repeat(1, 1fr); /* 3 columns with equal width */
+    grid-template-rows: repeat(2, auto); /* 2 rows with auto height */
+    gap: 1rem; /* Gap between grid items */
+    text-align:right;
+    font-size:1.2em;
+  }
+  .foots a{
+    color:#555;
+  }
+}
+
+#menu{
+  height:100%;
+  width:100%;
+  padding:0px;
+}
+
+.bur{
+  display:block;
+  position:fixed;
+  top:1em;
+  right: 1em;
+  height:2em;
+  width:2em;
+  z-index:1000;
+}
