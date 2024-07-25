@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import '@/app/index.css';
 import '@/app/globals.css';
-import Marquee from '@/components/marquee'
+import Marx from '@/components/marquee'
 import Cymarq from '@/components/cymarq'
 import IP from '@/components/ip'
 import Subscribe from '@/components/subscribe';
@@ -34,13 +34,12 @@ const Home = () => {
 
     return (
         <div>
-        
         <nav>
             <header> 
                 <Link href="/ego">HAX</Link>
             </header>
         </nav>
-        <Marquee/>
+        <Marx/>
         <div class="linx">
             <Link href="/sites">Sitios</Link>
             <Link href="/models">Modelos</Link>

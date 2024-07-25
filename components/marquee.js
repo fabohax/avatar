@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import { fetchPrices } from '../utils/fetchPrices';
 import Marquee from "react-fast-marquee";
 
-const Marquees = () => {
+const Marx = () => {
   const [prices, setPrices] = useState({});
   
   useEffect(() => {
@@ -34,4 +34,4 @@ const Marquees = () => {
   );
 };
 
-export default Marquees;
+export default Marx;

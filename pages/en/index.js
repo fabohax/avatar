@@ -4,7 +4,7 @@ import Image from 'next/image';
 import '@/app/index.css';
 import '@/app/globals.css';
 import Links from '@/components/links'
-import Marquee from '@/components/marquee'
+import Marx from '@/components/marquee'
 import Cymarq from '@/components/cymarq'
 import IP from '@/components/ip'
 import Subscribe from '@/components/subscribe';
@@ -38,7 +38,7 @@ const Home = () => {
                     <Link href="/ego">HAX</Link>
                 </header>
             </nav>
-            <Marquee/>
+            <Marx/>
             <Links/>
             <Link href="/log" className='message'>DON'T CLICK HERE</Link>
             <div className='content mt-24 lg:mt-0'>
