@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import DM from '@/components/dm'
 import Footer from '@/components/footer'
 
 const Models = () => {
@@ -82,6 +83,7 @@ const Models = () => {
                     <Image src="/models/anonmask-fabohax.jpg" height="500" width="500" alt="fabohax-xyz-model" />
                 </div>
             </div> 
+            <DM/>
             <Footer/>
         </div>
     )

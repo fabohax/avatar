@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import DM from '@/components/dm'
 import Footer from '@/components/footer'
 
 const Sites = () => {
@@ -57,6 +58,7 @@ const Sites = () => {
                 <br/>
                 <span>Fisura Galería. Barranco, Lima | Jul 2020</span> 
             </div>
+            <DM/>
             <Footer/>
         </div>
     )

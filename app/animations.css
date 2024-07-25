@@ -1,0 +1,25 @@
+.animated-grid {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .grid-item {
+    width: 1em;
+    height: 1em;
+    background-color: #000; /* Adjust the color as desired */
+    border:1px solid #fff;
+    position: absolute;
+    animation: gridAnimation 30s linear infinite; /* Adjust the animation duration as needed */
+  }
+  
+  @keyframes gridAnimation {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  

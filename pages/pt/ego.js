@@ -1,8 +1,12 @@
-import React, { useState } from 'react';
-import Link from 'next/link';
-import Image from 'next/image';
-import '../../app/index.css';
-import Footer from '../../components/footer';
+import React, { useState } from 'react'
+import Link from 'next/link'
+import Image from 'next/image'
+import '@/app/index.css'
+import Avatar from '@/components/avatar'
+import Clients from '@/components/clients'
+import DM from '@/components/dm';
+import Reviews from '@/components/reviews'
+import Footer from '@/components/footer'
 
 const Bio = () => {
 
@@ -20,7 +24,7 @@ const Bio = () => {
 
     return (
         <div>
-        <Link href="/log" className='message'>to-hak-is-to-master</Link>
+        <Link href="/log" className='message'>hackear-é-dominar</Link>
         <nav>
             <header>
                 <Link href="/">Hax</Link>
@@ -29,23 +33,12 @@ const Bio = () => {
         <div className='content'>
             <section className="profile mx-auto">
                 <div className='card mx-auto'>
-                    <Image src="/0/_hax.png" height="360" width="360" alt="client-logo"></Image>
-                    <p className='text-2xl'>Arquitecto</p>    
-                    <p>+ Nasceu no Brazil. Sede em Lima, Perú.</p>
-                    <p>+ Classe Bitcoiner: 12.12.18</p>
-                    <p>XY</p>
+                    <Avatar/>
                 </div>
             </section>
-            <section className="clients" id="about">
-                <p>Hired by nice clients</p>
-                <Image className='toScale' src="/0/logo_javierartadi.svg" height="100" width="200" alt="client-logo"></Image>
-                <Image className='toScale' src="/0/logo_fisura.svg" height="100" width="200" alt="client-logo"></Image>
-                <Image className='toScale' src="/0/logo_laborx.svg" height="100" width="200" alt="client-logo"></Image>
-                <Image className='toScale' src="/0/logo_markeemedia.svg" height="100" width="200" alt="client-logo"></Image>
-                <Image className='toScale' src="/0/logo_orangepill.svg" height="100" width="200" alt="client-logo"></Image>
-                </section>
+            <Clients/>
             <section className='call'>
-                <h1 className='text-9xl nubit'>Developing <blue>good<br></br>products</blue></h1>
+                <h1 className='text-9xl nubit'>Desenvolvendo <blue>funcionais</blue><br></br>produtos</h1>
                 <p>Deixe-me saber quais são os objetivos que a sua organização está perseguindo,<br></br> e eu encontrarei uma maneira de atender às suas necessidades.</p>
                 <port>
                     <Link href="/sites"><button>Veja meu portfólio</button></Link>
@@ -56,32 +49,7 @@ const Bio = () => {
                 </div>
             </section>
             <section className="social">
-                <div className="reviews flex flex-col md:flex-row md:space-x-4 mb-24">
-                    <div className="review p-4">
-                        <p className="text-italic">
-                        <i>&apos;Agradecido con Fabo; entrega resultados de alta calidad y colabora sólidamente.&apos;</i>
-                        </p>
-                        <p className="font-bold">
-                        <Link href="https://www.instagram.com/artadiarchitects/" target="_blank">Javier Artadi</Link>
-                        </p>
-                    </div>
-                    <div className="review p-4">
-                        <p className="text-italic">
-                        <i>&apos;Fabo excels in his endeavors, even when navigating uncharted territory.&apos;</i>
-                        </p>
-                        <p className="font-bold">
-                        <Link href="https://www.linkedin.com/in/marcus-albert-producer/" target="_blank">Marcus Albert</Link>
-                        </p>
-                    </div>
-                    <div className="review p-4">
-                        <p className="text-italic">
-                            <i>&apos;Fabo contributes valuable ideas to the team and actively assists with research efforts.&apos;</i>
-                        </p>
-                        <p className="font-bold">
-                            <Link href="https://www.linkedin.com/in/andrewvoronkov/" target="_blank">Andrey Voronkov</Link>
-                        </p>
-                    </div>
-                </div>
+               
                 <div className="photos flex flex-wrap justify-center items-center md:flex-row">
                     <div className="photo">
                         <Image src="/img/hax_pao.webp" height='200' width='400' alt="fab03" className='mr-6 rounded rounded-lg mb-3' />
@@ -93,6 +61,7 @@ const Bio = () => {
                         <Image src="/0/FAB_PORT.jpg" height='250' width='400' alt="fab01" className='mr-6 rounded rounded-lg mb-3'/>
                     </div>
                 </div>
+                <Reviews/>
                 <div className='mx-auto lg:w-1/2'>
                     <h1 className='nubit text-left text-3xl m-12 mb-2'>Algo sobre mim</h1>
                     <div className='text-base md:text-base lg:text-xl m-6 md:m-12 lg:m-24 lg:mt-2 text-left'>
@@ -115,6 +84,7 @@ const Bio = () => {
                 </div>
             </section>
         </div>
+        <DM/>
         <Footer/>
         </div>
     );

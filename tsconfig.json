@@ -33,7 +33,7 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts"
-, "components/footer.js", "data/siteMetadata.js", "pages/log/index.js", "pages/cysec.js", "components/marquee.js"  ],
+, "components/footer.js", "data/siteMetadata.js", "pages/log/index.js", "pages/cysec.js", "components/marquee.js", "pages/nostr/index.ts" , "pages/nostr/index.js", "components/cysec/modal.js" ],
   "exclude": [
     "node_modules"
   ]

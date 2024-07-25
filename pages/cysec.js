@@ -33,12 +33,11 @@ const Cysec = ({ tools }) => {
           <br/>
           <h2 className='font-bold'>Why Share This?</h2> 
           <br/>
-          <p>Because there is a growing attention about apps that may compromise our personal or financial data and, since property is a right and communities are periodically evolving to digitalized organizations such as servers or DAOs, more common sense about cybersecurity is important.</p>
-          <p>This tools are intended to be used as a way of pasive or active defense at the time that every person may respond for their own acts and deserves to be true informed. This collection reveals the complex types of attacks that are usually done by cybersecurity experts for recovering data or take back control of a system.</p>
-          <p>I open up this repo in order to fund further research on this matter as a humble coder based in Lima, Perú. If you like this content, feel free to check updates by my <Link href="#nostr" className='underline'>nostr</Link> or just direct <Link href="mailto:40230@pm.me" target='_blank' className='underline'>message me</Link>.</p>
-          <p>Thanks for your time.</p>
-        
-        <p className='italic text-[#555] font-bold'>WARNING: Misuse of these tools may have serious legal consequences. Is strongly recommended to educate yourself on cysecs before using them. <Link href="https://security.ine.com/" target='_blank' className='underline'>Here</Link> are certified courses you can start on.
+          <p>Because there it is evident growing concerns about apps that can compromise personal or financial data, and as communities increasingly digitize into organizations managing critical information, cybersecurity awareness is crucial.</p>
+          <p>This collection reveals the sophisticated types of cyber attacks typically conducted by experts to recover data or regain control of systems. In necessary circunstances, are meant for passive or active defense.</p>
+          <p>I've opened this repo made by months of work to support further research in this field as a humble passionate coder based in Lima, Perú. So, if you appreciate this content, you can stay updated via my <Link href="#nostr" className='underline'>nostr</Link> or just <Link href="mailto:40230@pm.me" target='_blank' className='underline'>message me directly</Link>.</p>
+          <p>Thanks for your time.</p>        
+        <p className='italic text-[#555] font-bold'>WARNING: Misuse of these tools may have serious legal consequences. Is strongly recommended to educate yourself on cybersecurity and ethical hacking before using them. <Link href="https://security.ine.com/" target='_blank' className='underline'>Here</Link> are certified recommended courses.
         </p>
       </div>
       <div className='grid visible -pt-10'>

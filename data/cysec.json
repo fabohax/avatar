@@ -1,5 +1,5 @@
 [
-  { "name": "0DayInExploit ExeToDoc", "description": "A tool to convert executable files to Word documents, often used in exploit scenarios.", "link": "cy/0DayInExploit" },
+  { "name": "0DayInExploit", "description": "A tool to convert executable files to Word documents, often used in exploit scenarios.", "link": "cy/0DayInExploit" },
   { "name": "AlienCrypter", "description": "A crypter used to encrypt and obfuscate malware to avoid detection by antivirus software.", "link": "cy/AlienCrypter" },
   { "name": "BITRAT", "description": "A Remote Access Trojan (RAT) that allows attackers to control a target machine remotely.", "link": "cy/BITRAT" },
   { "name": "Blue Eagle Ransomware Builder", "description": "A builder for creating ransomware, allowing the attacker to encrypt victim's files for ransom.", "link": "cy/Blue_Eagle_Ransomware_Builder" },
@@ -43,7 +43,7 @@
   { "name": "TMAC v6.0.7", "description": "Setup for Technitium MAC Address Changer, used to spoof MAC addresses.", "link": "cy/TMACv6.0.7" },
   { "name": "Verci Rat 2023", "description": "A remote access tool for controlling target machines, 2023 edition.", "link": "cy/Verci_Rat_2023" },
   { "name": "WH-RAT", "description": "A master version of the WH-RAT for remote access.", "link": "cy/WH_RAT" },
-  { "name": "1000 Hacking Tutorials", "description": "A collection of hacking tutorials and guides.", "link": "cy/1000_Hacking_Tutorials" },
+  { "name": "DBAN", "description": "Software designed to securely erase all data on a hard drive", "link": "cy/DBAN" },
   { "name": "APK Easy Tool v1.60.2", "description": "A tool for decompiling and recompiling APK files.", "link": "cy/APK_Easy_Tool_v1.60.2" },
   { "name": "BBRAT", "description": "A Remote Access Trojan targeting various platforms.", "link": "cy/BBRAT" },
   { "name": "BinderBot", "description": "A binder tool for combining multiple files into one executable.", "link": "cy/BinderBot" },

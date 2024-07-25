@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import Links from '@/components/links';
 import Footer from '@/components/footer';
 
 const Log = () => {
@@ -83,7 +84,7 @@ const Log = () => {
     ];
 
   return (
-          <div className='mt-24'>
+          <div className='my-24'>
             <div className=''>
               <header><Link href="/">HAX</Link></header>
             </div>
@@ -98,6 +99,7 @@ const Log = () => {
                 </Link>
               ))}
             </div>
+            <Links/>
             <Footer />
           </div>
         );

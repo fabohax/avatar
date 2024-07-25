@@ -12,7 +12,7 @@ function App ({Component, pageProps}) {
         <>
             <Head><title>40230</title></Head>
             <meta property="og:title" content="Fabo Hax" />
-            <meta property="og:type" content="Specialized in CG Modeling and Web3 Development. Bitcoiner since 2018." />
+            <meta property="og:type" content="CG Modeling and Blockchain Development. Bitcoiner since 2018." />
             <meta property="og:url" content="https://hax.pe" />
             <meta property="og:image" content="https://hax.pe/opengraph-image.jpg" />
             <Component {...pageProps}/>
