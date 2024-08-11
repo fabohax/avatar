@@ -6,6 +6,7 @@ import '@/app/globals.css';
 import Marx from '@/components/marquee'
 import Cymarq from '@/components/cymarq'
 import IP from '@/components/ip'
+import ReLog from '@/components/reLog'
 import Subscribe from '@/components/subscribe'
 import DM from '@/components/dm'
 import Footer from '@/components/footer'
@@ -74,17 +75,7 @@ const Home = () => {
                 <Cymarq/>
             </Link>
         </div>
-        <div className='text-center'>
-            <Link href="/log" className='pb-2  border-b-2'>log_recente</Link>
-            <Link
-                href="https://fabohax.medium.com/a-beleza-da-arquitetura-sustent%C3%A1vel-4491de109aff"
-                target='_blank'
-            >
-                <h2 className='lg:pl-36 lg:pr-36 font-bold text-3xl nubit hover:underline mt-8 mb-8'>
-                    De la Arquitectura Regenerativa con Grafeno
-                </h2>
-            </Link>
-        </div>
+        <ReLog/>
         <Subscribe/>
         <DM/>
         <IP/>

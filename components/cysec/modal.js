@@ -48,8 +48,12 @@ const Modal = ({ isOpen, onClose }) => {
         <p className='bg-blue-600 text-white p-4 rounded'>
           Remember that this tool is provided as-is without further guarantee. Please do your own research and comply with ethical behaviors within your communities. Misuse of these tools may have serious legal consequences. It is strongly recommended to educate yourself on cybersecurity and ethical hacking before using them. <Link href="https://security.ine.com/" target='_blank' className='underline underline-offset-4'>Here</Link> are certified recommended courses.
         </p>
-        <p className="mb-4">Please enter your email and submit. You'll get a message with a download link.</p>
+        <p className="mb-4">If you pay, enter your email and submit: You'll get a message with a 24h temporal link to download the requested file.</p>
         <form onSubmit={handleSub}>
+          <div className='flex flex-col-2 gap-4 my-4'>
+              <Link href="#" className='flex border-[1px] border-[#333] rounded-md px-2 py-4 w-1/2 hover:bg-white hover:text-black'>Pay with Bitcoin Lightning</Link>
+              <Link href="#" className='flex border-[1px] border-[#333] rounded-md px-2 py-4 w-1/2 hover:bg-white hover:text-black'>Pay with Solana</Link>
+          </div>
           <input 
             name="email"
             type="email"

@@ -2,7 +2,7 @@
 import { useEffect } from 'react';
 import { useRouter } from 'next/router';
 
-export default function Medium() {
+export default function Github() {
   const router = useRouter();
 
   useEffect(() => {

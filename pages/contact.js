@@ -71,6 +71,9 @@ export default function Contact() {
                 ></textarea>
                 <button type='submit' className='hover:bg-[#fff] hover:text-black bg-[#000] border-[1px] border-[#333]  block rounded-md mt-4 p-4 bg-black text-white w-full font-bold'>SEND</button>
             </form>
+            <p>
+                You can also contact me at <Link href="mailto:40230@pm.me">40230@pm.me</Link>
+            </p>
             </div>
             <Links/>
             <Link href="/log" className='message'>/LOG</Link>

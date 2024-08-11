@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import Links from '@/components/links';
+import Subscribe from '@/components/subscribe';
 import Footer from '@/components/footer';
 
 const Log = () => {
@@ -25,6 +26,10 @@ const Log = () => {
     }, []);
 
     const logs = [
+      { title: "Postula a Fondos Climáticos y Grants de Web3",
+        sub: "Recuento de Fundaciones y Organizaciones que brindan financiamiento",
+        link: "https://abalone-close-59e.notion.site/Postula-a-Fondos-Clim-ticos-y-Grants-de-Web3-8904cf5c8e0846f38235db2ac2afc134",
+        date: "24.8.3" },
       { title: "De la Arquitectura Regenerativa con Grafeno",
         sub: "Exploración de aplicación del grafeno en casas pasivas",
         link: "https://fabohax.medium.com/a-beleza-da-arquitetura-sustent%C3%A1vel-4491de109aff",
@@ -99,6 +104,7 @@ const Log = () => {
                 </Link>
               ))}
             </div>
+            <Subscribe/>
             <Links/>
             <Footer />
           </div>

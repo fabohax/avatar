@@ -4,7 +4,7 @@ import axios from 'axios';
 export const fetchPrices = async () => {
   try {
     const response = await axios.get(
-      'https://api.coingecko.com/api/v3/simple/price?ids=bitcoin,bitcoin-cash,monero,ethereum,solana,cardano,chainlink,worldcoin-wld,near,the-open-network,optimism,kaspa&vs_currencies=usd'
+      'https://api.coingecko.com/api/v3/simple/price?ids=bitcoin,bitcoin-cash,monero,ethereum,solana,cardano,chainlink,worldcoin-wld,near,the-open-network,optimism,kaspa,filecoin&vs_currencies=usd'
     );
     return response.data;
   } catch (error) {

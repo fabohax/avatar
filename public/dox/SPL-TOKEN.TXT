@@ -1,0 +1,20 @@
+solana-keygen new -o zyxUrPEEH4uXZEyAmA7V5RyFfHYZZEKTksXyuHYWi64.json
+solana config get
+solana-keygen grind --starts-with nag:1
+
+spl-token create-token --program-id TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb --enable-metadata zyxWSouxhQ2y91WVXeiRDSfMCyefZ29mpwiPg18CdC3.json
+spl-token initialize-metadata zyxWSouxhQ2y91WVXeiRDSfMCyefZ29mpwiPg18CdC3 'ZUYUX' 'ZYX' 'https://hax.pe/zyx/metadata.json'
+
+spl-token update-metadata nag9oMSYaLpunYsrjEN1jCATXAxVic79jmg6Nrg4j8a uri https://hax.pe/nag/metadata.json
+
+MINT
+spl-token create-account zyxWSouxhQ2y91WVXeiRDSfMCyefZ29mpwiPg18CdC3
+spl-token mint zyxWSouxhQ2y91WVXeiRDSfMCyefZ29mpwiPg18CdC3 1000000
+
+spl-token transfer nag9oMSYaLpunYsrjEN1jCATXAxVic79jmg6Nrg4j8a 100000 FtwgRUsQNesSGRT8LxLbRFis1bGzZXC4Biv7nEQeb3Tj --fund-recipient
+
+nag9oMSYaLpunYsrjEN1jCATXAxVic79jmg6Nrg4j8a
+quayBt4dtjubBB9JbTVmMyDzVTjqJhkWpVG3BfJGQ5k
+aceZY1gw9dRjQjipVjw3s23Reo9jgPTVJdkGwBJncWT
+
+zyxWSouxhQ2y91WVXeiRDSfMCyefZ29mpwiPg18CdC3
