@@ -3,13 +3,6 @@ import Link from 'next/link';
 import DM from '@/components/dm';
 import Footer from '@/components/footer';
 
-const NAV_LINKS = [
-  { href: '/sites', label: 'SITES', className: 'selected rounded-2xl' },
-  { href: '/models', label: 'MODELS', className: 'rounded-2xl' },
-  { href: '/ai', label: 'AI' },
-  { href: '/architecture', label: 'ARCHITECTURE' },
-];
-
 const VIDEO_PROJECTS = [
   {
     href: 'https://github.com/fabohax/bitbox',
@@ -44,12 +37,11 @@ const Sites = () => {
         <Link href="/">Fabo Hax</Link>
       </header>
       <div className="linx text-sm">
-        {NAV_LINKS.map(({ href, label, className }) => (
-          <Link key={href} href={href} className={className}>
-            {label}
-          </Link>
-        ))}
-      </div>
+        <Link href="/sites" className='selected rounded-2xl'>SITES</Link>
+        <Link href="/models" className='rounded-2xl'>MODELS</Link>
+        <Link href="/ai">AI</Link>
+        <Link href="/architecture">ARCHITECTURE</Link>
+        </div>
       {VIDEO_PROJECTS.map(({ href, src, label, className }) => (
         <div key={src} className="my-24 py-4 items-center justify-center text-center">
           <div className="flex justify-center">

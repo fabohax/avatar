@@ -4,7 +4,7 @@ import Image from 'next/image';
 import '@/app/index.css';
 import '@/app/globals.css';
 import Marx from '@/components/marquee'
-import Cymarq from '@/components/cymarq'
+import CySecs from '@/components/cysecs'
 import IP from '@/components/ip'
 import ReLog from '@/components/reLog'
 import Subscribe from '@/components/subscribe'
@@ -70,11 +70,7 @@ const Home = () => {
                 <p className='text-center'><Link href="/ego" className='underline underline-offset-8 hover:bg-white hover:text-black'>Mais sobre mim</Link> | <Link href="/port" className='underline underline-offset-8 hover:bg-white hover:text-black'>Confira meu portfólio</Link></p>
             </div>
         </div>
-        <div className='text-center p-4 mt-8 mb-20'>
-            <Link href="/cysec">
-                <Cymarq/>
-            </Link>
-        </div>
+        <CySecs/>
         <ReLog/>
         <Subscribe/>
         <DM/>

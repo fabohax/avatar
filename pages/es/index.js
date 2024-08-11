@@ -4,7 +4,7 @@ import Image from 'next/image';
 import '@/app/index.css';
 import '@/app/globals.css';
 import Marx from '@/components/marquee'
-import Cymarq from '@/components/cymarq'
+import CySecs from '@/components/cysecs'
 import IP from '@/components/ip'
 import ReLog from '@/components/reLog'
 import Subscribe from '@/components/subscribe';
@@ -62,12 +62,8 @@ const Home = () => {
                 <p>Además, acabo de publicar 69 ejecutables de ciberseguridad como producto de una investigación exhaustiva de más de un año que puedes consultar <Link href="/cysec" className='underline underline-offset-8'>aquí</Link>.</p>
                 <p className='text-center'><Link href="/ego" className='underline underline-offset-8 hover:bg-white hover:text-black'>Más sobre mí</Link> | <Link href="/port" className='underline underline-offset-8 hover:bg-white hover:text-black'>Revisa mi Portafolio</Link></p>
             </div>         
-        </div>
-        <div className='text-center p-4 mt-8 mb-20'>
-            <Link href="/cysec">
-                <Cymarq/>
-            </Link>
-        </div>
+        </div>        
+        <CySecs/>
         <ReLog/>
         <Subscribe/>
         <DM/>
