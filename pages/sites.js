@@ -1,67 +1,72 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
-import DM from '@/components/dm'
-import Footer from '@/components/footer'
+import DM from '@/components/dm';
+import Footer from '@/components/footer';
+
+const NAV_LINKS = [
+  { href: '/sites', label: 'SITES', className: 'selected rounded-2xl' },
+  { href: '/models', label: 'MODELS', className: 'rounded-2xl' },
+  { href: '/ai', label: 'AI' },
+  { href: '/architecture', label: 'ARCHITECTURE' },
+];
+
+const VIDEO_PROJECTS = [
+  {
+    href: 'https://github.com/fabohax/bitbox',
+    src: '/sites/low_bitshop_fabohax.mp4',
+    label: 'Bitcoin Lightning-based Shop Template | Feb 2023',
+    className: 'lg:w-3/4 rounded-2xl',
+  },
+  {
+    href: 'https://github.com/fabohax/boost',
+    src: '/sites/boost_fabohax.mp4',
+    label: 'Boost: Electronics Virtual Store with Paypal | Aug 2023',
+    className: 'lg:w-3/4 rounded-2xl',
+  },
+  {
+    href: 'https://fabohax.github.io/mica',
+    src: '/sites/micalinares_fabohax.mp4',
+    label: 'Micaela, Lima | Jan 2021',
+    className: 'lg:w-1/2 rounded-2xl',
+  },
+  {
+    href: 'https://fabohax.github.io/fisura',
+    src: '/sites/fisura_fabohax.mp4',
+    label: 'Fisura Galería. Barranco, Lima | Jul 2020',
+    className: 'lg:w-1/2 rounded-2xl',
+  },
+];
 
 const Sites = () => {
-
-    return(
-        <div>
-            <header><Link href="/">Fabo Hax</Link></header>
-            <div className="linx text-sm">
-                <Link href="/sites" className='selected rounded-2xl'>SITES</Link>
-                <Link href="/models" className='rounded-2xl'>MODELS</Link>
-                <Link href="/ai">AI</Link>
-                <Link href="/architecture">ARCHITECTURE</Link>
-            </div>
-            <div className="my-24 py-4 items-center justify-center text-center">
-                <div className='flex justify-center'>
-                    <Link href="https://github.com/fabohax/bitbox" target='_blank' className='inline-block'>
-                        <video id="_vid" className="lg:w-3/4 rounded-2xl" height="100%" width="auto" autoPlay muted loop>
-                            <source src="/sites/low_bitshop_fabohax.mp4" type="video/mp4" />
-                        </video>
-                    </Link>
-                </div>
-                <br/>
-                <span>Bitcoin Lightning-based Shop Template | Feb 2023</span>
-            </div>
-
-            <div className="my-24 py-4 items-center justify-center text-center">
-                <div className='flex justify-center'>
-                    <Link href="https://boostpe.vercel.app/" target='_blank' className='inline-block'>
-                        <video id="_vid" className="lg:w-3/4 rounded-2xl" height="100%" width="auto" autoPlay muted loop>
-                            <source src="/sites/boost_fabohax.mp4" type="video/mp4" />
-                        </video>
-                    </Link>      
-                </div>
-                <br/>
-                <span>Boost: Electronics Virtual Store with Paypal | Aug 2023</span> 
-            </div>
-            <div className="my-24 py-4 items-center justify-center text-center">
-                <div className='flex justify-center'>
-                    <Link href="https://fabohax.github.io/mica" target='_blank' className='inline-block'>
-                        <video id="_vid" className="lg:w-1/2 rounded-2xl" height="100%" width="auto" autoPlay muted loop>
-                            <source src="/sites/micalinares_fabohax.mp4" type="video/mp4"></source>
-                        </video>            
-                    </Link>
-                </div>
-                <br/>
-                <span>Micaela, Lima | Jan 2021</span>                 
-            </div>
-            <div className="my-24 py-4 items-center justify-center text-center">
-                <Link href="https://fabohax.github.io/fisura" target='_blank' className='inline-block'>
-                    <video id="_vid" className="lg:w-1/2 rounded-2xl" height="100%" width="auto" autoPlay muted loop>
-                        <source src="/sites/fisura_fabohax.mp4" type="video/mp4"></source>
-                    </video>            
-                </Link>
-                <br/>
-                <span>Fisura Galería. Barranco, Lima | Jul 2020</span> 
-            </div>
-            <DM/>
-            <Footer/>
+  return (
+    <div>
+      <header>
+        <Link href="/">Fabo Hax</Link>
+      </header>
+      <div className="linx text-sm">
+        {NAV_LINKS.map(({ href, label, className }) => (
+          <Link key={href} href={href} className={className}>
+            {label}
+          </Link>
+        ))}
+      </div>
+      {VIDEO_PROJECTS.map(({ href, src, label, className }) => (
+        <div key={src} className="my-24 py-4 items-center justify-center text-center">
+          <div className="flex justify-center">
+            <Link href={href} target="_blank" className="inline-block">
+              <video id="_vid" className={className} height="100%" width="auto" autoPlay muted loop>
+                <source src={src} type="video/mp4" />
+              </video>
+            </Link>
+          </div>
+          <br />
+          <span>{label}</span>
         </div>
-    )
+      ))}
+      <DM />
+      <Footer />
+    </div>
+  );
 };
 
 export default Sites;
