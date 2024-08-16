@@ -58,7 +58,7 @@ export default function Contact() {
                     value={formData.email}
                     onChange={handleInputChange}
                     type="email"
-                    placeholder='Enter your Email'
+                    placeholder='whats your email?'
                     className='block bg-[#000] border-[1px] border-[#333]  rounded-md mt-4 p-4 w-full'
                 />
                 <textarea
@@ -66,13 +66,13 @@ export default function Contact() {
                     name="message"
                     value={formData.message}
                     onChange={handleInputChange}
-                    placeholder='Feel free to write your message here'
+                    placeholder='feel free to write me here'
                     className='block bg-[#000] border-[1px] border-[#333]  rounded-md mt-4 p-4 w-full h-36'
                 ></textarea>
                 <button type='submit' className='hover:bg-[#fff] hover:text-black bg-[#000] border-[1px] border-[#333]  block rounded-md mt-4 p-4 bg-black text-white w-full font-bold'>SEND</button>
             </form>
-            <p>
-                You can also contact me at <Link href="mailto:40230@pm.me">40230@pm.me</Link>
+            <p className='py-8 text-center'>
+                You can also contact me at <Link href="mailto:40230@pm.me" className='underline underline-offset-8'>40230@pm.me</Link>
             </p>
             </div>
             <Links/>

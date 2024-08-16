@@ -57,9 +57,7 @@ const Home = () => {
             <div className='mx-auto px-8 py-8 lg:w-1/3 md:1/2 my-16 border-[1px] border-[#333] rounded-3xl'>
                 <p className='mx-auto leading-10'>¡Hola! Soy Fabo, Arquitecto Desarrollador residiendo en Lima, Perú. Explorando la impresión 3D, cadenas de bloques e IA durante algunos años, di un golpe de gracia al comprar bitcoins desde finales de 2018 prestando del banco y pagando luego con las ganancias. Con eso, construí una penthouse de 65 m² y me he dedicado a mejorar mi portafolio y mantenerme involucrado en el desarrollo de mis áreas de interés. Estoy abierto a socializar y colaborar con cualquiera que comparta Autenticidad, Autonomía y Aspiración por una mejor humanidad.</p>
                 <p>¡Siéntete libre de ponerte en contacto!</p>
-                <p>Estoy recientemente explorando las posibilidades de tokenizar Real-World Assets para la Acuicultura en <Link href="https://searanchfarms.com" target='_blank' className='underline'>searanchfarms.com</Link></p>
-                <p>y postulando a <i>grants</i> con <Link href="https://zuyux.xyz" target='_blank' className='underline'>zuyux</Link> como una DAO de Desarrollo de TI.</p>
-                <p>Además, acabo de publicar 69 ejecutables de ciberseguridad como producto de una investigación exhaustiva de más de un año que puedes consultar <Link href="/cysec" className='underline underline-offset-8'>aquí</Link>.</p>
+                <p>Por cierto, acabo de publicar 69 ejecutables de ciberseguridad como producto de una investigación exhaustiva de más de un año que puedes consultar <Link href="/cysec" className='underline underline-offset-8'>aquí</Link>.</p>
                 <p className='text-center'><Link href="/ego" className='underline underline-offset-8 hover:bg-white hover:text-black'>Más sobre mí</Link> | <Link href="/port" className='underline underline-offset-8 hover:bg-white hover:text-black'>Revisa mi Portafolio</Link></p>
             </div>         
         </div>        

@@ -4,7 +4,7 @@ import { fetchPrices } from '../utils/fetchPrices';
 import Marquee from "react-fast-marquee";
 import Link from 'next/link';
 
-const Marx = () => {
+const CySecs = () => {
   const [prices, setPrices] = useState({});
   
   useEffect(() => {
@@ -21,25 +21,18 @@ const Marx = () => {
   }, []);
 
   return (
-    <div className="marquee text-[12px] fixed mx-auto px-20 top-[21px] text-[#777] justify-center items-center w-full text-center z-100">  
-        <Marquee>
-          
-          <div className="marquee-content">
-          
-            {Object.entries(prices).map(([key, value]) => (
-              <Link href="/dyor">
-                <span key={key}>
-                {key.toUpperCase()}: ${value.usd} &nbsp;&nbsp;&nbsp;
+    <div className="marquee text-[12px] text-[#555] justify-center items-center w-full text-center z-25 p-4 mt-8 mb-20">
+      <Link href="/dyor">
+        <Marquee direction="right">
+          <div className="marquee-content text-5xl text-white nubit">
+              <span className='hover:underline'>
+                INVEST IN BLOCKCHAIN PROJECTS :: HERE A LIST :: DYOR :: HODL :: NOT YOUR KEYS NOT YOUR COINS :: BUIDL :: QUIERES INVERTIR EN PROYECTOS WEB3? : CLICK AQUÍ ::&nbsp;&nbsp;
               </span>
-              </Link>
-            ))}
-            
           </div>
-          
         </Marquee>
-    
+      </Link>
     </div>
   );
 };
 
-export default Marx;
+export default CySecs;

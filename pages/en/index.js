@@ -5,6 +5,7 @@ import '@/app/index.css';
 import '@/app/globals.css';
 import Links from '@/components/links'
 import Marx from '@/components/marquee'
+import Dyor from '@/components/dyor';
 import CySecs from '@/components/cysecs'
 import IP from '@/components/ip'
 import ReLog from '@/components/reLog'
@@ -49,14 +50,13 @@ const Home = () => {
             </div>
             <div className='text-left p-4 mt-8 mb-20'> 
                 <div className='mx-auto px-8 py-8 lg:w-1/3 md:1/2 my-16 border-[1px] border-[#333] rounded-3xl'>
-                    <p className='mx-auto leading-10'>Hi! I'm Fabo, an Architect Developer based in Lima, Perú, exploring 3D Printing, Blockchains, and AI since a while. At late 2018 did a bullseye strike buying bitcoins by borrowing from the bank and repaying with the earnings. With it, built a 65 sqm penthouse and have dedicated myself to enhancing my skills and staying engaged with advancements in my fields. I’m eager to network and collaborate with those who value Authenticity, Autonomy, and Aspiration for the betterment of humankind.</p>
+                    <p className='mx-auto leading-10'>
+                        Hi! I'm Fabo, an Architect Developer based in Lima, exploring 3D Printing, Blockchains, and AI since a while. At late 2018 did a bullseye strike buying Bitcoins and earning much that built a 65 sqm penthouse and have dedicated myself to enhancing my skills and staying engaged with advancements in my fields. I’m eager to network and collaborate with those who value Authenticity, Autonomy, and Aspiration for the betterment of humankind.</p>
                     <p>Feel free to reach out! </p>
-                    <p>Recently exploring chances of tokenizing Aquaculture RWA on <Link href="https://searanchfarms.com" target='_blank' className='underline'>searanchfarms.com</Link></p>
-                    <p>and applying for grants with <Link href="https://zuyux.xyz" target='_blank' className='underline'>zuyux</Link> as an IT R&D DAO.</p>
-                    <p>Plus, just published 69 cybersecurity tools you can check by clicking <Link href="/cysec">HERE</Link>.</p>
                     <p className='text-center'><Link href="/ego" className='underline underline-offset-8 hover:bg-white hover:text-black'>More About Me</Link> | <Link href="/port" className='underline underline-offset-8 hover:bg-white hover:text-black'>Check my Portfolio</Link></p>
                 </div>                
             </div>
+            <Dyor/>
             <CySecs/>            
             <ReLog/>
             <Subscribe/>

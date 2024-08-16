@@ -6,7 +6,7 @@ const ReLog = () => {
     return (
         <>
             <div className='text-center p-4 mt-8 mb-20'>
-                <Link href="/log" className='w-full pb-2 border-b-2'>recent_log</Link>
+                <Link href="/log" className='w-full pb-2 border-b-2'>my_log</Link>
                 <Link
                     href="https://abalone-close-59e.notion.site/Postula-a-Fondos-Clim-ticos-y-Grants-de-Web3-8904cf5c8e0846f38235db2ac2afc134"
                     target='_blank'
