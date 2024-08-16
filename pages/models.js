@@ -1,17 +1,13 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import Navs from '@/components/navs';
 import DM from '@/components/dm';
 import Footer from '@/components/footer';
 
 const HEADER_LINK = '/';
 const HEADER_TEXT = 'Fabo Hax';
-const NAV_LINKS = [
-  { href: '/sites', text: 'SITES' },
-  { href: '/models', text: 'MODELS', className: 'selected' },
-  { href: '/ai', text: 'AI' },
-  { href: '/architecture', text: 'ARCHITECTURE' },
-];
+
 const MODEL_ITEMS = [
   {
     href: 'https://www.cgtrader.com/3d-models/interior/other/minimalistic-chess-set',
@@ -94,11 +90,7 @@ const Models = () => {
   return (
     <div>
       <header><Link href={HEADER_LINK}>{HEADER_TEXT}</Link></header>
-      <div className="linx text-sm">
-        {NAV_LINKS.map((link, index) => (
-          <Link key={index} href={link.href} className={link.className || ''}>{link.text}</Link>
-        ))}
-      </div>
+      <Navs selected="/models" />
       <div className="grid visible">
         {MODEL_ITEMS.map((item, index) => (
           <div key={index} className="grid-item">
